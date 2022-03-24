@@ -123,6 +123,14 @@
     items: 1
   });
 
+  // Sponsors carousel (uses the Owl Carousel library)
+  $(".sponsor-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
   // Clients carousel (uses the Owl Carousel library)
   $(".clients-carousel").owlCarousel({
     autoplay: true,
