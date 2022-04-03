@@ -757,12 +757,22 @@ h6 {
 
 #services .icon {
   margin: 0 auto 15px auto;
-  padding-top: 12px;
+  /*padding-top: 12px;*/
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 150px;
+  height: 150px;
+}
+
+#services .icon img {
+  margin: 0 auto 20px auto;
+  padding: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
 }
 
 #services .icon i {
@@ -782,6 +792,38 @@ h6 {
 
 #services .box:hover .title a {
   color: #ffffff;
+}
+
+#services .tag{
+  font-weight: lighter;
+  color: white;
+  margin: 6px;
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 12px;
+  width: 70%;
+  text-align: center;
+  display: inline-block;
+}
+
+#services .organizer{
+  background-color: #d582ac;
+}
+
+#services .sponsorship{
+  background-color: #CC99CC;
+}
+
+#services .website{
+    background-color: #8F5E99;
+}
+
+#services .design{
+    background-color: #CD96CD;
+}
+
+#services .programming{
+    background-color: #7A378B;
 }
 
 #services .description {
@@ -1479,15 +1521,15 @@ h6 {
 }
 
 
-/* Attend Section
+/* Pricing Section
 --------------------------------*/
 
-#attend {
+#pricing {
   font-weight: lighter;
   padding: 40px 0;
 }
 
-#attend .card {
+#pricing .card {
   border: 0;
   border-radius: 35px;
   box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
@@ -1499,7 +1541,7 @@ h6 {
   position: relative;
 }
 
-#attend .card:after {
+#pricing .card:after {
   content: '';
   position: absolute;
   border-radius: 35px;
@@ -1511,56 +1553,56 @@ h6 {
   transition: 0.5s;
 }
 
-#attend .card:hover {
+#pricing .card:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-#attend .card:hover:after {
+#pricing .card:hover:after {
   width: 100%;
 }
 
-#attend .card .card-header {
+#pricing .card .card-header {
   background-color: white;
   border-bottom: 0px;
   -moz-text-align-last: center;
   text-align-last: center;
 }
 
-#attend .card .card-title {
+#pricing .card .card-title {
   font-weight: lighter;
   font-size: 20px;
   margin-bottom: 16px;
   color: #535074;
 }
 
-#attend .card .card-block {
+#pricing .card .card-block {
   padding-top: 0;
   text-align: center;
 }
 
-#attend .card .list-group-item {
+#pricing .card .list-group-item {
   border: 0px;
   padding: 6px;
   color: #413e66;
   font-weight: 300;
 }
 
-#attend .card h3 {
+#pricing .card h3 {
   font-size: 64px;
   font-weight: lighter;
   margin-bottom: 0px;
   color: #d582ac;
 }
 
-#attend .card h5 {
+#pricing .card h5 {
   font-weight: lighter;
   margin-bottom: 30px;
   color: #d582ac;
 }
 
-#attend .card h3 .currency {
+#pricing .card h3 .currency {
   font-size: 30px;
   position: relative;
   font-weight: 400;
@@ -1568,17 +1610,17 @@ h6 {
   letter-spacing: 0px;
 }
 
-#attend .card h3 .period {
+#pricing .card h3 .period {
   font-size: 16px;
   color: #6c67a3;
   letter-spacing: 0px;
 }
 
-#attend .card .list-group {
+#pricing .card .list-group {
   margin-bottom: 15px;
 }
 
-#attend .card .btn {
+#pricing .card .btn {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
@@ -1592,7 +1634,7 @@ h6 {
   color: #fff;
 }
 
-#attend .card .btn:hover {
+#pricing .card .btn:hover {
   background: #FFF6F6;
 }
 
@@ -1944,11 +1986,11 @@ a.disabled {
     padding-top: 30px;
   }
 
-  #attend {
+  #pricing {
     padding-bottom: 30px;
   }
 
-  #attend .card {
+  #pricing .card {
     margin-bottom: 50px;
   }
 }
