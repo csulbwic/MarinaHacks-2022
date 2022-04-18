@@ -10,7 +10,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-repeat:no-repeat;
-    background: linear-gradient( to bottom, #232b3d, #000 100%);
+    background: linear-gradient( to bottom, #252B3C, #252B3C, #000);
 
     /* Previous Background Settings */
     /* background: #27CDFA !important;
@@ -229,16 +229,16 @@ h6 {
 
 #intro {
     width: 100%;
+    background-image: linear-gradient(to left,#7d74b5 30%, #d582ac 100%);
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
-    background-image: linear-gradient(to left,#7d74b5 30%, #d582ac 100%);
     background-position: center;
     background-repeat: no-repeat;
+    position: center;
+    overflow: hidden;
     animation: scaler 1s ease-out;
 	animation-fill-mode: forwards;
-    position: relative;
-    overflow: hidden;
 }
 
 .parallax {
@@ -270,6 +270,7 @@ h6 {
     transform: scale3d(1.1, 1.1, 1.1);
     animation: scaler 0.5s ease-out;
 	animation-fill-mode: forwards;
+    background-attachment: fixed;
     transform: scale3d(1.1, 1.1, 1.1);
     bottom: 0px;
 }
@@ -281,6 +282,7 @@ h6 {
     background-image:url(../assets/images/parallax-middleground.png);
     animation: scaler 1s ease-out;
 	animation-fill-mode: forwards;
+    background-attachment: fixed;
     transform: scale3d(1.1, 1.1, 1.1);
     bottom: 0px;
 }
@@ -289,12 +291,12 @@ h6 {
     width: 100%;
     height: 40%;
     position: absolute;
+    background-attachment: fixed;
     background-image:url(../assets/images/parallax-foreground.png);
     animation: scaler 2s ease-out;
 	animation-fill-mode: forwards;
     transform: scale3d(1.1, 1.1, 1.1);
     bottom: 0px;
-    /* mix-blend-mode: soft-light; */
 }
 
     #intro .logo {
