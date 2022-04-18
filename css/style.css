@@ -241,25 +241,8 @@ h6 {
 	animation-fill-mode: forwards;
 }
 
-.parallax {
-/* Full height */
-  height: 100%; 
-  /* 
-   */
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.pos {
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    bottom: 0px; */
+#parallax {
+    display: block;
 }
 
 .parallax-background {
@@ -267,11 +250,11 @@ h6 {
     position: absolute;
     height: 40%;
     background-image:url(../assets/images/parallax-background.png);
-    transform: scale3d(1.1, 1.1, 1.1);
-    animation: scaler 0.5s ease-out;
-	animation-fill-mode: forwards;
+    /* transform: scale3d(1.1, 1.1, 1.1); */
+    /* animation: scaler 0.5s ease-out;
+	animation-fill-mode: forwards; */
     background-attachment: fixed;
-    transform: scale3d(1.1, 1.1, 1.1);
+    /* transform: scale3d(1.1, 1.1, 1.1); */
     bottom: 0px;
 }
 
@@ -280,10 +263,10 @@ h6 {
     height: 30%;
     position: absolute;
     background-image:url(../assets/images/parallax-middleground.png);
-    animation: scaler 1s ease-out;
-	animation-fill-mode: forwards;
+    /* animation: scaler 1s ease-out;
+	animation-fill-mode: forwards; */
     background-attachment: fixed;
-    transform: scale3d(1.1, 1.1, 1.1);
+    /* transform: scale3d(1.1, 1.1, 1.1); */
     bottom: 0px;
 }
 
@@ -293,9 +276,9 @@ h6 {
     position: absolute;
     background-attachment: fixed;
     background-image:url(../assets/images/parallax-foreground.png);
-    animation: scaler 2s ease-out;
-	animation-fill-mode: forwards;
-    transform: scale3d(1.1, 1.1, 1.1);
+    /* animation: scaler 2s ease-out;
+	animation-fill-mode: forwards; */
+    /* transform: scale3d(1.1, 1.1, 1.1); */
     bottom: 0px;
 }
 
