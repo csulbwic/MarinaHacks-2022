@@ -122,10 +122,12 @@ window.addEventListener('scroll', () => {
   let children = parent.getElementsByTagName('div');
   for(let i = 0; i < children.length; i++) {
     //skip foreground layer
-    if(i != children.length - 1){
-      children[i].style.transform = 'translateY(-' + (window.pageYOffset * i / children.length ) + 'px)';
-      } else if(i == children.length - 1){
-      children[i].style.transform = 'translateY(-' + (window.pageYOffset / children.length ) + 'px)';
+      if (i != children.length - 1 && i != 3){
+        children[i].style.transform = 'translateY(-' + (window.pageYOffset * i / children.length ) + 'px)';
+      } else if (i == children.length - 1){ //foreground layer-account for About Section
+        children[i].style.transform = 'translateY(-' + (window.pageYOffset / children.length ) + 'px)';
+      } else if (i == 3) { // light png - moves vertically
+        children[i].style.transform = 'translateX(' + (window.pageYOffset * i / children.length ) + 'px)';
       }
     }
 }, false)
