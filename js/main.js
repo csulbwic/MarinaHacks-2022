@@ -31,10 +31,12 @@
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
       // $('#header').addClass('logo-scrolled');
-      document.getElementById("logo").style.opacity = 1;
+        document.getElementById("logo").style.opacity = 1;
+        document.getElementById("navbar-content").style.display = "";
     } else {
       $('#header').removeClass('header-scrolled');
-      document.getElementById("logo").style.opacity = 0;
+        document.getElementById("logo").style.opacity = 0;
+        document.getElementById("navbar-content").style.display = "none";
     }
   });
 
