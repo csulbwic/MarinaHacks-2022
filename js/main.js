@@ -117,12 +117,17 @@
 
   //Parallax Scrolling Effect
 window.addEventListener('scroll', () => {
+  let foreground = document.getElementById('parallax-foreground');
   let parent = document.getElementById('parallax');
   let children = parent.getElementsByTagName('div');
   for(let i = 0; i < children.length; i++) {
-    console.log(children[i].className)
+    //skip foreground layer
+    if(i != children.length - 1){
       children[i].style.transform = 'translateY(-' + (window.pageYOffset * i / children.length ) + 'px)';
-  }
+      } else if(i == children.length - 1){
+      children[i].style.transform = 'translateY(-' + (window.pageYOffset / children.length ) + 'px)';
+      }
+    }
 }, false)
 
   // Testimonials carousel (uses the Owl Carousel library)

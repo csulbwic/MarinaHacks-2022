@@ -10,7 +10,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-repeat:no-repeat;
-    background: linear-gradient( to bottom, #fff, #252B3C, #000);
+    background: linear-gradient( to bottom, #252B3C, #252B3C, #000);
 
     /* Previous Background Settings */
     /* background: #27CDFA !important;
@@ -246,12 +246,18 @@ h6 {
     overflow: hidden;
 }
 
+.parallax-origin {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    bottom: -700px;
+    z-index: 1;
+}
 .parallax-background {
     width: 100%;
     position: absolute;
     height: 100%;
     background-image:url(../assets/images/parallax-background.png);
-    background-attachment: fixed;
     bottom: -700px;
     z-index: 1;
 }
