@@ -250,7 +250,7 @@ h6 {
     width: 100%;
     position: absolute;
     height: 100%;
-    bottom: -700px;
+    bottom: -800px;
     z-index: 1;
 }
 .parallax-background {
@@ -258,7 +258,7 @@ h6 {
     position: absolute;
     height: 100%;
     background-image:url(../assets/images/parallax-background.png);
-    bottom: -700px;
+    bottom: -800px;
     z-index: 1;
 }
 
@@ -279,7 +279,7 @@ h6 {
     position: absolute;
     background-image:url(../assets/images/light.png);
     /* bottom: -800px; */
-    z-index: 3;
+    z-index: 0;
 }
 
 .parallax-foreground {
@@ -295,7 +295,7 @@ h6 {
     #intro .logo {
         position: relative;
         background: #f5f8fd url("newlogoTransparent.png") center top no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
 
     #intro .intro-info h2 {
@@ -310,10 +310,6 @@ h6 {
         font-weight: 50;
         padding-left: 10px;
         color: #d582ac;
-    }
-
-    #intro .intro-info h2 span {
-        color: #1bb1dc;
     }
 
     #intro .intro-info .btn-get-started,
