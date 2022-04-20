@@ -735,16 +735,16 @@ h6 {
 --------------------------------*/
 
 #services {
-  padding: 60px 0 40px 0;
+  padding: 20px 0 20px 0;
 }
 
 #services .box {
-  padding: 30px;
+  padding: 10px;
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
-  margin: 0 10px 40px 10px;
-  background: #ffffff;
+  border-radius: 5px;
+  margin: 0 10px 10px 10px;
+  background: #ffffff80;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
   text-align: center;
@@ -756,34 +756,34 @@ h6 {
 }
 
 #services .icon {
-  margin: 0 auto 15px auto;
+  margin: 0 auto 9px auto;
   /*padding-top: 12px;*/
   display: inline-block;
   text-align: center;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  border-radius: 20%;
+  width: 80px;
+  height: 80px;
 }
 
 #services .icon img {
   margin: 0 auto 20px auto;
-  padding: 12px;
+  padding: 2 px;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 80px;
 }
 
 #services .icon i {
-  font-size: 35px;
+  font-size: 15px;
   line-height: 1;
 }
 
 #services .title {
   font-weight: lighter;
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #services .title a {
@@ -797,11 +797,11 @@ h6 {
 #services .tag{
   font-weight: lighter;
   color: white;
-  margin: 6px;
-  font-size: 13px;
-  border-radius: 20px;
+  margin: 3px;
+  font-size: 12px;
+  border-radius: 30px;
   padding: 12px;
-  width: 70%;
+  width: 50%;
   text-align: center;
   display: inline-block;
 }
