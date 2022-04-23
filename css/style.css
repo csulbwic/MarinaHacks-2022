@@ -600,7 +600,7 @@ h6 {
     font-weight: 100;
     position: relative;
     font-family: "Montserrat", sans-serif;
-    background-image: linear-gradient(60deg, #7777e7, #e777af);
+    background-image: linear-gradient(60deg, #a0a0fd, #a366cf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -612,7 +612,7 @@ h6 {
     font-weight: 100px;
     font-size: 15px;
     padding-bottom: 60px;
-    background-image: linear-gradient(60deg, #7777e7, #e777af);
+    background-image: linear-gradient(60deg, #a0a0fd, #a366cf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: 100%;
@@ -889,19 +889,39 @@ h6 {
 }
 
 #services .organizer{
-  background-color: #a8d3fb;
+    /* From https://css.glass */
+    background: rgba(95, 116, 255, 0.425);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 #services .sponsorship{
-  background-color: #9895f7;
+    /* From https://css.glass */
+    background: #9895f777;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 #services .website{
-    background-color: #7a9af7;
+    /* From https://css.glass */
+    background: #ac95f750;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 #services .design{
-    background-color: #5593ff;
+    /* From https://css.glass */
+    background: #a366cf29;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 #services .programming{
@@ -991,8 +1011,15 @@ h6 {
         overflow: hidden;
         border-radius: 20px;
         margin: 0 10px 20px 10px;
-        background: #cccbfe;
-        box-shadow: 0 10px 29px 0 rgba(23, 52, 132, 0.495);
+
+        /* From https://css.glass */
+        background: rgb(213,130,172);
+        background: linear-gradient(130deg, rgba(213,130,172,0.4) 0%, rgba(226,174,238,0.4) 47%, rgba(125,116,181,0.4) 100%);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+
         transition: all 0.3s ease-in-out;
         text-align: center;
     }
@@ -1005,7 +1032,12 @@ h6 {
         overflow: hidden;
         border-radius: 10px;
         margin: 0 10px 40px 10px;
-        background-color: #f0c0d9;
+        /* From https://css.glass */
+        background: #7466cf98;
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
         box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
         transition: all 0.3s ease-in-out;
         text-align: center;
@@ -1038,12 +1070,13 @@ h6 {
 
     #team .title {
         font-weight: lighter;
+        color:rgb(227, 238, 255);
         margin-bottom: 12px;
         font-size: 20px;
     }
 
         #team .title a {
-            color: #111;
+            color: rgb(255, 255, 255);
         }
 
     #team .box:hover .title a {
