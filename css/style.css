@@ -597,11 +597,13 @@ h6 {
 
 .section-header h3 {
     font-size: 36px;
-    color: #413e66;
-    text-align: center;
     font-weight: 100;
     position: relative;
     font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(60deg, #7777e7, #e777af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .section-header p {
@@ -610,7 +612,9 @@ h6 {
     font-weight: 100px;
     font-size: 15px;
     padding-bottom: 60px;
-    color: #545454;
+    background-image: linear-gradient(60deg, #7777e7, #e777af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     width: 100%;
 }
 
@@ -834,7 +838,7 @@ h6 {
 }
 
 #services .icon {
-  margin: 0 auto 9px auto;
+  margin: 10 auto 9px auto;
   /*padding-top: 12px;*/
   display: inline-block;
   text-align: center;
@@ -845,12 +849,12 @@ h6 {
 
 #services .icon img {
   margin: 0 auto 20px auto;
-  padding: 2 px;
+  /*padding: 2px;*/
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 #services .icon i {
@@ -860,7 +864,7 @@ h6 {
 
 #services .title {
   font-weight: lighter;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-size: 15px;
 }
 
@@ -874,30 +878,30 @@ h6 {
 
 #services .tag{
   font-weight: lighter;
-  color: white;
+  color: #ffffff;
   margin: 3px;
   font-size: 12px;
   border-radius: 30px;
   padding: 12px;
-  width: 50%;
+  width:70%;
   text-align: center;
   display: inline-block;
 }
 
 #services .organizer{
-  background-color: #d582ac;
+  background-color: #a8d3fb;
 }
 
 #services .sponsorship{
-  background-color: #CC99CC;
+  background-color: #9895f7;
 }
 
 #services .website{
-    background-color: #8F5E99;
+    background-color: #7a9af7;
 }
 
 #services .design{
-    background-color: #CD96CD;
+    background-color: #5593ff;
 }
 
 #services .programming{
@@ -976,19 +980,19 @@ h6 {
 
 
 #team {
-    padding: 60px 0 40px 0;
+    padding: 40px 0 40px 0;
 }
 
     #team .box {
-        padding: 30px;
+        padding: 15px;
         width: 100%;
         height: intrinsic;
         position: relative;
         overflow: hidden;
-        border-radius: 10px;
-        margin: 0 10px 40px 10px;
-        background: #ffffff;
-        box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+        border-radius: 20px;
+        margin: 0 10px 20px 10px;
+        background: #cccbfe;
+        box-shadow: 0 10px 29px 0 rgba(23, 52, 132, 0.495);
         transition: all 0.3s ease-in-out;
         text-align: center;
     }
@@ -1034,7 +1038,7 @@ h6 {
 
     #team .title {
         font-weight: lighter;
-        margin-bottom: 15px;
+        margin-bottom: 12px;
         font-size: 20px;
     }
 
