@@ -1444,7 +1444,8 @@ h6 {
         overflow: hidden;
     }
 
-    #sponsors .box {
+    /* sponsors box class - original */
+    /* #sponsors .box {
         padding: 30px;
         position: relative;
         overflow: hidden;
@@ -1452,6 +1453,27 @@ h6 {
         margin: 0 10px 40px 10px;
         background: #ffffff;
         box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+    } */
+
+    #sponsors .box1 { /* ruby tier - 240px */
+        max-height: 100%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        margin: 0 10px 40px 10px;
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+
+    }
+
+    #sponsors .box2 { /* gold tier - 140px; bronze tier - 75px */
+        padding: 30px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        margin: 0 10px 40px 10px;
         transition: all 0.3s ease-in-out;
         text-align: center;
     }
