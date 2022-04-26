@@ -740,6 +740,39 @@ h6 {
     padding: 80px 0;
 }
 
+#contact .section-header a {
+    color: #a0a0fd;
+}
+
+#contact .buttons-section {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+
+#contact .icon-back{
+    border-radius: 50%;
+    margin: 20px;
+    padding: 15px;
+    width: 20%;
+    text-align: center;
+    border: 0px solid !important;
+    background: linear-gradient(130deg, rgba(213,130,172,0.4) 0%, rgba(226,174,238,0.4) 47%, rgba(125,116,181,0.4) 100%) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+#contact .icon a {
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 50px;
+}
+
+#contact a {
+    color: #fff;
+}
+
     #contact .about-content {
         font-weight: 100;
         letter-spacing: 1px;
