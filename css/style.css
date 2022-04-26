@@ -146,7 +146,7 @@ h6 {
         }
 
             #topbar .social-links a:hover {
-                color: #d582ac;
+                color: #252B3C;
             }
 
             #topbar .social-links a:first-child {
@@ -179,7 +179,7 @@ h6 {
         padding: 15px 0;
         display: inline-block;
         box-shadow: 0px 0px 30px rgba(116, 155, 165, 0.3);
-        background-color: #304173;
+        background-color: #252B3C;
     }
 
         #header.header-scrolled #topbar,
@@ -206,7 +206,7 @@ h6 {
 
     #header .logo h1 a,
     #header .logo h1 a:hover {
-        color: #d582ac;
+        color: #252B3C;
         opacity: 1;
         text-decoration: none;
     }
@@ -299,7 +299,7 @@ h6 {
     }
 
     #intro .intro-info h2 {
-        color: #d582ac;
+        color: #a0a0fd;
         margin-bottom: 70px;
         font-size: 48px;
         font-weight: 100;
@@ -405,15 +405,15 @@ h6 {
     /* border: 1px solid #d582ac; */
     transition: 0.5s;
     background: #fff;
-    color: #304173;
+    color: #252B3C;
 }
 
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-    /* color: #1bb1dc; */
-    color: #FADBD8;
-    text-decoration: none;
+    color: #fff;
+    background: #252B3C;
+    text-shadow: 0px 0px 30px #fff;
 }
 
 .main-nav .drop-down ul {
@@ -426,7 +426,7 @@ h6 {
     visibility: hidden;
     padding: 10px 0;
     background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    box-shadow: 0px 0px 30px #252B3C;
     transition: ease all 0.3s;
 }
 
@@ -452,7 +452,7 @@ h6 {
     .main-nav .drop-down ul a:hover,
     .main-nav .drop-down ul .active > a,
     .main-nav .drop-down ul li:hover > a {
-        color: #1bb1dc;
+        color: #252B3C;
     }
 
 .main-nav .drop-down > a:after {
@@ -515,7 +515,7 @@ h6 {
         .mobile-nav a:hover,
         .mobile-nav .active > a,
         .mobile-nav li:hover > a {
-            color: #8dc2fa;
+            color: #252B3C;
             text-decoration: none;
         }
 
@@ -561,7 +561,7 @@ h6 {
 
     .mobile-nav-toggle i {
         margin: 18px 18px 0 0;
-        color: #065e77;
+        color: #ffffff;
     }
 
 .mobile-nav-overly {
@@ -639,7 +639,7 @@ h6 {
     }
 
         #about .about-content h2 {
-            color: #545454;
+            color: #ffffff;
             font-size: 18px;
             margin: 10px;
             font-family: "Montserrat", sans-serif;
@@ -652,14 +652,14 @@ h6 {
         }
 
         #about .about-content h3 {
-            color: #d582ac;
+            color: #a0a0fd;
             font-weight: 10;
             font-size: 20px;
             display: flex;
         }
 
         #about .about-content a {
-            color: #d582ac;
+            color: #a0a0fd;
             font-weight: 100;
         }
 
@@ -675,7 +675,7 @@ h6 {
 
                 #about .about-content ul li i {
                     padding-right: 4px;
-                    color: #d582ac;
+                    color: #a0a0fd;
                 }
 
     #about .about-img {
