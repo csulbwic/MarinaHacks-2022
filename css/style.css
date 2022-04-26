@@ -1735,6 +1735,58 @@ h6 {
         margin: 45px;
         position: relative;
     }
+#attend .box {
+    padding: 15px;
+    width: 100%;
+    height: intrinsic;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0 10px 20px 10px;
+    /* From https://css.glass */
+    background: rgb(213,130,172);
+    background: linear-gradient(130deg, rgba(213,130,172,0.4) 0%, rgba(226,174,238,0.4) 47%, rgba(125,116,181,0.4) 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+#attend .title {
+    font-weight: lighter;
+    color: rgb(227, 238, 255);
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+    #attend .title a {
+        color: rgb(255, 255, 255);
+    }
+
+#attend .box:hover .title a {
+    color: #ffffff;
+}
+
+#attend .btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    display: inline-block;
+    padding: 10px 40px;
+    margin: 15px;
+    border-radius: 30px;
+    /* border: 1px solid #d582ac; */
+    transition: 0.5s;
+    background: #434459;
+    color: #f2f2f2;
+}
+
+#attend .btn:hover {
+    border: 5px white;
+    background-color: #304173;
+    color: #f2f2f2;
+}
 
         #attend .card:after {
             content: '';
