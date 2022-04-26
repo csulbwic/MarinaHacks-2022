@@ -815,11 +815,11 @@ h6 {
             transition: .5s;
         }
 
-/* Services Section
+/* Team Members Section
 --------------------------------*/
 
 #services {
-  padding: 20px 0 20px 0;
+  padding: 10px 0 0px 0;
 }
 
 #services .box {
@@ -1002,7 +1002,7 @@ h6 {
 
 
 #team {
-    padding: 40px 0 40px 0;
+    padding: 0px 0px 0px 0px;
 }
 
     #team .box {
@@ -1354,7 +1354,7 @@ h6 {
 --------------------------------*/
 
 #team {
-    padding: 60px 0;
+    padding: 20px 0;
 }
 
     #team .member {
@@ -1844,15 +1844,15 @@ a.disabled {
 --------------------------------------------------------------*/
 
 #footer {
-    padding: 0 0 30px 0;
+    padding: 0 0 0px 0;
     font-size: 14px;
-    min-height: 100%;
+    /* min-height: 100%; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat:no-repeat;
-    background: linear-gradient( to bottom, #0C0F12, #000);
+    /* background: linear-gradient( to bottom, #0C0F12, #000); */
     /* Added Gradient to Footer since separate from main
     Remember to take a shade lighter from last gradient above
     to make it continuous */
@@ -1860,7 +1860,7 @@ a.disabled {
 }
 
     #footer .footer-top {
-        padding: 60px 0 30px 0;
+        padding: 00px 0 30px 0;
         background: #f5f8fd;
     }
 
@@ -1874,7 +1874,7 @@ a.disabled {
                 padding: 2px 0 2px 0;
                 line-height: 1;
                 font-family: "Montserrat", sans-serif;
-                color: #413e66;
+                color: #fff;
                 font-weight: 400;
                 letter-spacing: 3px;
                 text-transform: uppercase;
@@ -1885,7 +1885,7 @@ a.disabled {
                 line-height: 24px;
                 margin-bottom: 0;
                 font-family: "Montserrat", sans-serif;
-                color: #535074;
+                color: #fff;
             }
 
         #footer .footer-top .social-links a {
@@ -1911,7 +1911,7 @@ a.disabled {
         #footer .footer-top h4 {
             font-size: 14px;
             font-weight: bold;
-            color: #413e66;
+            color: #fff;
             text-transform: uppercase;
             position: relative;
             padding-bottom: 10px;
@@ -1936,7 +1936,7 @@ a.disabled {
                     }
 
                 #footer .footer-top .footer-links ul a {
-                    color: #696592;
+                    color: #fff;
                 }
 
                     #footer .footer-top .footer-links ul a:hover {
@@ -2052,7 +2052,7 @@ a.disabled {
             background: #1bb1dc;
             border: 0;
             border-radius: 3px;
-            padding: 8px 30px;
+            padding: 0px 0px;
             color: #fff;
             transition: 0.3s;
         }
@@ -2064,8 +2064,8 @@ a.disabled {
 
     #footer .copyright {
         text-align: center;
-        padding-top: 30px;
-        color: #535074;
+        padding-top: 50px;
+        color: #fff;
         font-size: 15px;
     }
 
@@ -2073,7 +2073,7 @@ a.disabled {
         text-align: center;
         font-size: 14px;
         padding-top: 4px;
-        color: #8582a8;
+        color: #fff;
     }
 
         #footer .credits a {
