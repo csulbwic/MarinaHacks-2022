@@ -413,7 +413,7 @@ h6 {
 .main-nav li:hover > a {
     color: #fff;
     background: #252B3C;
-    text-shadow: 0px 0px 30px #fff;
+    text-shadow: 0px 0px 24px #fff;
 }
 
 .main-nav .drop-down ul {
@@ -649,6 +649,7 @@ h6 {
         #about .about-content p {
             margin: 15px;
             font-weight: 100;
+            color: #fff;
         }
 
         #about .about-content h3 {
@@ -670,7 +671,8 @@ h6 {
 
             #about .about-content ul li {
                 padding-bottom: 10px;
-                font-size: 20px;
+                font-size: 16px;
+                color: #fff;
             }
 
                 #about .about-content ul li i {
@@ -733,7 +735,7 @@ h6 {
     }
 
         #contact .about-content h2 {
-            color: #545454;
+            color: #fff;
             font-size: 38px;
             margin: 20px;
             font-family: "Montserrat", sans-serif;
@@ -826,7 +828,7 @@ h6 {
   overflow: hidden;
   border-radius: 5px;
   margin: 0 10px 10px 10px;
-  background: #ffffff80;
+  background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
   text-align: center;
