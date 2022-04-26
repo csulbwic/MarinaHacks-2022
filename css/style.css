@@ -595,6 +595,16 @@ h6 {
 /* Sections Header
 --------------------------------*/
 
+.section-header {
+    padding: 10px;
+    color: #fff;
+    font-weight: lighter;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
 .section-header h3 {
     font-size: 36px;
     font-weight: 100;
@@ -820,6 +830,17 @@ h6 {
 
 #pillars {
     padding: 0px 0 100px 0;
+}
+
+.pillar-card {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    color: #fff !important;
+}
+
+.pillar-card:hover{
+    border-color: #fff !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    box-shadow: 0px 0px 10px #fff;
 }
   
 /* Team Members Section
