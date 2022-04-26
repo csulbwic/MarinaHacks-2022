@@ -754,7 +754,8 @@ h6 {
     border-radius: 50%;
     margin: 20px;
     padding: 15px;
-    width: 20%;
+    height: 100px;
+    width: 100px;
     text-align: center;
     border: 0px solid !important;
     background: linear-gradient(130deg, rgba(213,130,172,0.4) 0%, rgba(226,174,238,0.4) 47%, rgba(125,116,181,0.4) 100%) !important;
@@ -762,7 +763,12 @@ h6 {
     -webkit-backdrop-filter: blur(5px);
 }
 
-#contact .icon a {
+#contact .icon-back:hover{
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+#contact .icon-back a {
     text-align: center;
     justify-content: center;
     border-radius: 50%;
