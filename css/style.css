@@ -1495,7 +1495,6 @@ h6 {
 #sponsors {
     padding: 60px 0;
 }
-
     #sponsors .member {
         text-align: center;
         margin: 20px;
@@ -1724,6 +1723,10 @@ h6 {
     padding: 40px 0;
 }
 
+#attend .section-header {
+    padding-bottom: 50px;
+}
+
     #attend .card {
         border: 0;
         border-radius: 35px;
@@ -1788,102 +1791,108 @@ h6 {
     color: #f2f2f2;
 }
 
-        #attend .card:after {
-            content: '';
-            position: absolute;
-            border-radius: 35px;
-            top: 0;
-            left: 0;
-            width: 0%;
-            height: 3px;
-            background-color: #d582ac;
-            transition: 0.5s;
-        }
+#attend .card:after {
+    content: '';
+    position: absolute;
+    border-radius: 35px;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #d582ac;
+    transition: 0.5s;
+}
 
-        #attend .card:hover {
-            -webkit-transform: scale(1.05);
-            transform: scale(1.05);
-            box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
-        }
+#attend .card:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+}
 
-            #attend .card:hover:after {
-                width: 100%;
-            }
+    #attend .card:hover:after {
+        width: 100%;
+    }
 
-        #attend .card .card-header {
-            background-color: white;
-            border-bottom: 0px;
-            -moz-text-align-last: center;
-            text-align-last: center;
-        }
+#attend .card .card-header {
+    background-color: white;
+    border-bottom: 0px;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
 
-        #attend .card .card-title {
-            font-weight: lighter;
-            font-size: 20px;
-            margin-bottom: 16px;
-            color: #535074;
-        }
+#attend .card .card-title {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #535074;
+}
 
-        #attend .card .card-block {
-            padding-top: 0;
-            text-align: center;
-        }
+#attend .card .card-block {
+    padding-top: 0;
+    text-align: center;
+}
 
-        #attend .card .list-group-item {
-            border: 0px;
-            padding: 6px;
-            color: #413e66;
-            font-weight: 300;
-        }
+#attend .card .list-group-item {
+    border: 0px;
+    padding: 6px;
+    color: #413e66;
+    font-weight: 300;
+}
 
-        #attend .card h3 {
-            font-size: 64px;
-            font-weight: lighter;
-            margin-bottom: 0px;
-            color: #d582ac;
-        }
+#attend .card h3 {
+    font-size: 64px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    color: #d582ac;
+}
 
-        #attend .card h5 {
-            font-weight: lighter;
-            margin-bottom: 30px;
-            color: #d582ac;
-        }
+#attend .card h5 {
+    font-weight: lighter;
+    margin-bottom: 30px;
+    color: #d582ac;
+}
 
-        #attend .card h3 .currency {
-            font-size: 30px;
-            position: relative;
-            font-weight: 400;
-            top: -30px;
-            letter-spacing: 0px;
-        }
+#attend .card h3 .currency {
+    font-size: 30px;
+    position: relative;
+    font-weight: 400;
+    top: -30px;
+    letter-spacing: 0px;
+}
 
-        #attend .card h3 .period {
-            font-size: 16px;
-            color: #6c67a3;
-            letter-spacing: 0px;
-        }
+#attend .card h3 .period {
+    font-size: 16px;
+    color: #6c67a3;
+    letter-spacing: 0px;
+}
 
-        #attend .card .list-group {
-            margin-bottom: 15px;
-        }
+#attend .card .list-group {
+    margin-bottom: 15px;
+}
 
-        #attend .card .btn {
-            text-transform: uppercase;
-            font-size: 13px;
-            font-weight: 500;
-            color: #5f5b96;
-            border-radius: 0;
-            padding: 10px 24px;
-            letter-spacing: 1px;
-            border-radius: 3px;
-            display: inline-block;
-            background: #d582ac;
-            color: #fff;
-        }
+#attend .card .btn {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    color: #5f5b96;
+    border-radius: 0;
+    padding: 10px 24px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    display: inline-block;
+    background: #d582ac;
+    color: #fff;
+}
 
-            #attend .card .btn:hover {
-                background: #FFF6F6;
-            }
+#attend .card .btn:hover {
+    background: #FFF6F6;
+}
+
+#attend .video {
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+}
 
 /* Attend Event button */
 a.disabled {
