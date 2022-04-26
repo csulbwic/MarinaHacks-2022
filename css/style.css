@@ -19,7 +19,7 @@ body {
 }
 
 a {
-    color: #1bb1dc;
+    color: #fff;
     transition: 0.5s;
 }
 
@@ -1811,6 +1811,8 @@ a.disabled {
 #faq {
     padding: 60px 0;
     overflow: hidden;
+    letter-spacing: 2px;
+    font-weight: lighter;
 }
 
     #faq #faq-list {
@@ -1823,13 +1825,14 @@ a.disabled {
         }
 
         #faq #faq-list a {
-            padding: 22px 0;
+            padding: 20px 0;
             display: block;
             position: relative;
             font-family: "Montserrat", sans-serif;
             font-size: 20px;
             line-height: 1;
             font-weight: 400;
+            color: #5f5b96;
             padding-right: 20px;
         }
 
@@ -1846,7 +1849,7 @@ a.disabled {
         }
 
         #faq #faq-list a.collapse {
-            color: #1bb1dc;
+            color: #fff;
         }
 
         #faq #faq-list a.collapsed {
