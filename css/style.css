@@ -835,13 +835,16 @@ h6 {
 }
 
 .pillar-card {
-    background-color: rgba(255, 255, 255, 0.4) !important;
+    border: 0px solid !important;
+    background: linear-gradient(130deg, rgba(213,130,172,0.4) 0%, rgba(226,174,238,0.4) 47%, rgba(125,116,181,0.4) 100%) !important;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     color: #fff !important;
 }
 
 .pillar-card:hover{
-    border-color: #fff !important;
-    background-color: rgba(255, 255, 255, 0.8) !important;
+    background-color: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0px 0px 10px #fff;
 }
   
