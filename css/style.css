@@ -933,7 +933,7 @@ h6 {
 #services .title {
   font-weight: lighter;
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #services .title a {
@@ -948,17 +948,17 @@ h6 {
   font-weight: lighter;
   color: #ffffff;
   margin: 3px;
-  font-size: 12px;
-  border-radius: 30px;
+  font-size: 10px;
+  border-radius: 40px;
   padding: 12px;
-  width:70%;
+  width: 70%;
   text-align: center;
   display: inline-block;
 }
 
 #services .organizer{
     /* From https://css.glass */
-    background: rgba(95, 116, 255, 0.425);
+    background: rgba(119, 157, 254, 0.731);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -967,7 +967,7 @@ h6 {
 
 #services .sponsorship{
     /* From https://css.glass */
-    background: #9895f777;
+    background: #8e8af6b6;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -976,7 +976,7 @@ h6 {
 
 #services .website{
     /* From https://css.glass */
-    background: #ac95f750;
+    background: #a285ffa6;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -985,7 +985,7 @@ h6 {
 
 #services .design{
     /* From https://css.glass */
-    background: #a366cf29;
+    background: #c376f97f;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -1072,21 +1072,20 @@ h6 {
 }
 
     #team .box {
-        padding: 15px;
+        padding: 15px 0px 15px 0px;
         width: 100%;
         height: intrinsic;
         position: relative;
         overflow: hidden;
         border-radius: 20px;
         margin: 0 10px 20px 10px;
-
-        /* From https://css.glass */
-        background: rgb(213,130,172);
+        background: #13171f;
+        /* From https://css.glass 
         background: linear-gradient(130deg, rgba(213,130,172,0.4) 0%, rgba(226,174,238,0.4) 47%, rgba(125,116,181,0.4) 100%);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);*/
 
         transition: all 0.3s ease-in-out;
         text-align: center;
@@ -1140,7 +1139,7 @@ h6 {
         font-weight: lighter;
         color:rgb(227, 238, 255);
         margin-bottom: 12px;
-        font-size: 20px;
+        font-size: 15px;
     }
 
         #team .title a {
