@@ -1784,6 +1784,19 @@ h6 {
     color: #f2f2f2;
 }
 
+#attend .disabled-btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    display: inline-block;
+    padding: 10px 40px;
+    margin: 15px;
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: default;
+    color: #f2f2f2;
+}
+
 #attend .btn:hover {
     border: 5px white;
     background-color: #304173;
